@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;	
+}
+
+.mainContainer {
+	border-radius: 10px;
+	max-width: 620px;
+	background: lightblue;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
+	height: 60vh;
+	width: 50%;
+}
+
+.subContainer {
+	grid-column: 1 / 3;
+	padding: 35px;
+	background: white;
+	margin-bottom: 0;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.heading {
+	padding-bottom: 18px;	
+	color: hsl(179, 62%, 43%);
+}
+
+.sub-head {
+	padding-bottom: 9px;
+	color: hsl(71, 73%, 54%);
+}
+
+.text {
+	line-height: 1.5;
+	color: hsl(218, 22%, 67%);
+}
+
+.subContainer1 {
+	background: hsl(179, 62%, 43%);
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	border-bottom-left-radius: 10px;
+	
+}
+
+.subscribe {
+	color: hsl(204, 43%, 93%);
+	letter-spacing: 0.08rem;
+	padding-bottom: 15px;	
+	font-size: 16px;
+}
+
+.payment {
+	color: white;
+	position: relative;
+	padding-bottom: 6px;
+	font-weight: 100;
+	
+}
+
+.payment span{
+	color: hsl(204, 43%, 93%);
+	opacity: 0.6;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 12px;
+	position: absolute;
+	padding-top: 7px;
+	padding-left: 7px;
+}
+
+.condition {
+	padding-top: 9px;
+	color: hsl(204, 43%, 93%);
+	font-size: 14px;
+}
+
+.btn {
+	padding-top: 30px;
+	
+}
+
+.btn input{
+	width: 90%;
+	height: 39px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: hsl(71, 73%, 54%);
+	color: white;
+	font-family: 'Karla', sans-serif;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+
+.subContainer2 {
+	background: hsl(179, 62%, 43%);
+	opacity: 0.9;
+	padding: 40px;
+	border-bottom-right-radius: 10px;
+}
+
+.subContainer2 h3 {
+	color: hsl(204, 43%, 93%);
+}
+
+.subContainer2 p {
+	padding-top: 20px;
+	line-height: 1.5;
+	color: hsl(204, 43%, 93%);
+	opacity: 0.8;
+	font-size: 14px;
+}
+
+
