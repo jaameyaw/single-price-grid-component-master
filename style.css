@@ -130,3 +130,30 @@ body {
 }
 
 
+@media (max-width: 960px) {
+
+	body {
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.mainContainer {
+		max-width: 500px;
+		align-self: center;
+		margin-top: 40px;
+		grid-template-columns: 1fr;
+		width: 80%;
+	}
+	
+	.subContainer {
+		grid-column: 1;
+	}
+	
+	.subContainer1 {
+		border-bottom-left-radius: 0;
+	}
+
+	.subContainer2 {
+		border-bottom-left-radius: 10px;
+	} 
+}
